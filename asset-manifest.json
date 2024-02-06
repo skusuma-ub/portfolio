@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.95b538bf.css",
+    "main.js": "/portfolio/static/js/main.473052a7.js",
+    "static/media/mypic.png": "/portfolio/static/media/mypic.4789354f4d6006e2761b.png",
+    "static/media/java_logo.png": "/portfolio/static/media/java_logo.fdabd4e11f1235e4e8e0.png",
+    "static/media/javascript_logo.png": "/portfolio/static/media/javascript_logo.83f816a137ee2ef5f733.png",
+    "static/media/angular_logo.png": "/portfolio/static/media/angular_logo.b0a44123f33466daf28e.png",
+    "static/media/github_dark.png": "/portfolio/static/media/github_dark.35dc3a3d395787324d85.png",
+    "static/media/dark_icon.png": "/portfolio/static/media/dark_icon.3096a883a1a748c7b928.png",
+    "static/media/github_light.png": "/portfolio/static/media/github_light.b32ef956bb13855b0d52.png",
+    "static/media/linkedin_dark.png": "/portfolio/static/media/linkedin_dark.4ab7ecc85d36612df19e.png",
+    "static/media/aws_logo.png": "/portfolio/static/media/aws_logo.e58bf0c7cbf4df36bfd6.png",
+    "static/media/linkedin_light.png": "/portfolio/static/media/linkedin_light.813ce89b9bde20983b3c.png",
+    "static/media/kubernetes_logo.jpg": "/portfolio/static/media/kubernetes_logo.5b42de8cfc5fc971a967.jpg",
+    "static/media/light_icon.png": "/portfolio/static/media/light_icon.9f2f217732c7757a01c5.png",
+    "index.html": "/portfolio/index.html",
+    "main.95b538bf.css.map": "/portfolio/static/css/main.95b538bf.css.map",
+    "main.473052a7.js.map": "/portfolio/static/js/main.473052a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.95b538bf.css",
+    "static/js/main.473052a7.js"
+  ]
+}
