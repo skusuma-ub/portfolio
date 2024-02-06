@@ -1,23 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import Navbar from "./components/Navbar/Navbar.js";
+import About from "./components/About/About.js";
+import Summary from "./components/Summary/Summary.js"
+import Skills from "./components/Skills/Skills.js";
+import Experience from "./components/Experience/Experience.js";
 
-function App() {
+const App = () => {
+
+  const current_theme = localStorage.getItem('current_theme');
+  const [theme, setTheme] = useState(current_theme ? current_theme : 'light');
+
+
+
+  useEffect(() => {
+    localStorage.setItem('current_theme', theme);
+  }, [theme])
+
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries, options) => {
+      entries.forEach(entry =>{
+        entry.target.classList.toggle('visible', entry.isIntersecting)
+      });
+    });
+    observer.observe(document.querySelector('div.skills-container'));
+    observer.observe(document.querySelector('div.about'));
+    observer.observe(document.querySelector('div.aboutimg'));
+    observer.observe(document.querySelector('section#experience'));
+  },[])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={`container${theme}`} >
+      <Navbar theme={theme} setTheme={setTheme} />
+      <About />
+      <Summary />
+      <Skills />
+      <Experience />
     </div>
   );
 }
