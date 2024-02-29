@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0897795e.css",
+    "main.js": "/portfolio/static/js/main.9fb96e85.js",
+    "static/media/mypic.png": "/portfolio/static/media/mypic.4789354f4d6006e2761b.png",
+    "static/media/Jenkins_logo.png": "/portfolio/static/media/Jenkins_logo.bac6ddc1dc1e387ae9ac.png",
+    "static/media/kubernetes_logo.png": "/portfolio/static/media/kubernetes_logo.bb56c5fb620f4ad00ac3.png",
+    "static/media/html_logo.jpg": "/portfolio/static/media/html_logo.09303c7e9e5cd1904f41.jpg",
+    "static/media/java_logo.png": "/portfolio/static/media/java_logo.fdabd4e11f1235e4e8e0.png",
+    "static/media/mongodb_logo.png": "/portfolio/static/media/mongodb_logo.37695736c226dbbe0520.png",
+    "static/media/javascript_logo.png": "/portfolio/static/media/javascript_logo.83f816a137ee2ef5f733.png",
+    "static/media/angular_logo.png": "/portfolio/static/media/angular_logo.b0a44123f33466daf28e.png",
+    "static/media/github_dark.png": "/portfolio/static/media/github_dark.35dc3a3d395787324d85.png",
+    "static/media/MySQL_logo.jpg": "/portfolio/static/media/MySQL_logo.4337c6d50eba9939781a.jpg",
+    "static/media/spring_logo.jpg": "/portfolio/static/media/spring_logo.bc5d3289ff31dd168c00.jpg",
+    "static/media/react_logo.png": "/portfolio/static/media/react_logo.ad6cb63bf60e9d80af98.png",
+    "static/media/dark_icon.png": "/portfolio/static/media/dark_icon.3096a883a1a748c7b928.png",
+    "static/media/github_light.png": "/portfolio/static/media/github_light.b32ef956bb13855b0d52.png",
+    "static/media/aws_logo.jpg": "/portfolio/static/media/aws_logo.ebcdd913066274c47c1a.jpg",
+    "static/media/docker_logo.png": "/portfolio/static/media/docker_logo.d339ec982927e798a293.png",
+    "static/media/linkedin_dark.png": "/portfolio/static/media/linkedin_dark.4ab7ecc85d36612df19e.png",
+    "static/media/linkedin_light.png": "/portfolio/static/media/linkedin_light.813ce89b9bde20983b3c.png",
+    "static/media/light_icon.png": "/portfolio/static/media/light_icon.9f2f217732c7757a01c5.png",
+    "index.html": "/portfolio/index.html",
+    "main.0897795e.css.map": "/portfolio/static/css/main.0897795e.css.map",
+    "main.9fb96e85.js.map": "/portfolio/static/js/main.9fb96e85.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0897795e.css",
+    "static/js/main.9fb96e85.js"
+  ]
+}
