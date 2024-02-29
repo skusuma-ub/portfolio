@@ -1,0 +1,57 @@
+section#contact{
+    width: 100%;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    justify-content: center;
+    background-color: #cecece54;
+    transition: all 0.5s;
+    box-shadow: inset 0 10px 10px rgba(0, 0, 0, .2);
+
+
+    h2 {
+        padding-left: 12%;
+        position: relative;
+        top: -25px;
+    }
+
+    div.box{
+        background-color: #a8abad;
+        display: inline-flex;
+        width: 350px;
+        margin: 10px;
+        align-items: center;
+        padding:15px;
+        border-radius: 10px;
+        justify-content: center;
+        
+
+        svg{
+            height: 38px;
+            margin-right: 10px;
+            
+
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+.containerdark section#contact{
+    div.box{
+        background-color: #cecece54;
+        svg{
+            height: 38px;
+            fill: #ffff;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+    
+} 

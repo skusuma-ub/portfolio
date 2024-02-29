@@ -4,6 +4,7 @@ import About from "./components/About/About.js";
 import Summary from "./components/Summary/Summary.js"
 import Skills from "./components/Skills/Skills.js";
 import Experience from "./components/Experience/Experience.js";
+import Contact from "./components/Contact/Contact.js";
 
 const App = () => {
 
@@ -35,6 +36,7 @@ const App = () => {
       <Summary />
       <Skills />
       <Experience />
+      <Contact />
     </div>
   );
 }

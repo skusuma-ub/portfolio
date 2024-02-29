@@ -10,7 +10,7 @@ const Experience = () => {
                     <div className='texts'>
                         <h3>Software Engineer Virtual Internship</h3>
                         <h4>J.P. Morgan Chase & Co. - Remote</h4>
-                        <p>Unleashing my creativity during a virtual stint with J.P. Morgan Chase, I led a spirited project—crafting a livestock price data feed and an interactive data visualization system. Collaborating seamlessly with a dynamic team, I wove innovation into the project by leveraging JPMorgan Chase's open-source library, Perspective, to create visually captivating data presentations.</p>
+                        <p>Unleashing my creativity during a virtual stint with J.P. Morgan Chase, I led a spirited project—crafting a live stock price data feed and an interactive data visualization system. Collaborating seamlessly with a dynamic team, I wove innovation into the project by leveraging JPMorgan Chase's open-source library, Perspective, to create visually captivating data presentations.</p>
                     </div>
                 </div>
             </div>

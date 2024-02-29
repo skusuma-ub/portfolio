@@ -81,6 +81,10 @@ section#skills {
     transition: opacity 2.2s;
   }
 
+  .skills-container.visible .skill-box:nth-child(12) {
+    transition: opacity 2.4s;
+  }
+
 .skill-box img{
     margin-bottom: 10px;
     max-width: 60px;
